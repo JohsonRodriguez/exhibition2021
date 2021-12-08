@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 div {
+    margin-top: -150px;
+}
+
+.insignia {
+    width: 130px;
+    height: 130px;
+}
+
+.ib {
+    width: 140px;
+    height: 130px;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 div {
+    padding: 20px;
+}
+
+.menu div {
+    padding: 5px;
+    display: flex;
+}
+
+.volver {
+    text-align: center;
+}
+
+.volver a {
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+@media (min-width:320px) {
+    .section2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .section2 div {
+        margin-top: 0px;
+    }
+    .logo1 {
+        width: 400px;
+        height: 120px;
+    }
+    .logo3 {
+        width: 225px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .menu {
+        display: block;
+    }
+    .menu div {
+        margin-top: 0px;
+        padding: 10px;
+        justify-content: center;
+    }
+    .link1 {
+        width: 150px;
+        height: 60px;
+    }
+    .link2 {
+        width: 150px;
+        height: 60px;
+    }
+    .link3 {
+        width: 150px;
+        height: 60px;
+    }
+}
+
+@media(min-width:768px) {}
+
+@media(min-width:1024px) {
+    .section2 {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .section2 div {
+        margin-top: -150px;
+    }
+    .logo1 {
+        width: 990px;
+        height: 350px;
+    }
+    .logo3 {
+        width: 900px;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .menu {
+        display: flex;
+    }
+    .link1 {
+        width: 250px;
+        height: 80px;
+    }
+    .link1:hover {
+        width: 310px;
+        height: 90px;
+    }
+    .link2 {
+        width: 250px;
+        height: 80px;
+    }
+    .link2:hover {
+        width: 310px;
+        height: 90px;
+    }
+    .link3 {
+        width: 250px;
+        height: 80px;
+    }
+    .link3:hover {
+        width: 310px;
+        height: 90px;
+    }
+}

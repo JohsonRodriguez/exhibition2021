@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face{
+    font-family: "thanks";
+    src: url("../font/Thankyou.ttf");
+    
+}
+@font-face{
+    font-family: "Nunito";
+    src: url("../font/Nunito.ttf");
+
+}
+
+body{
+    background-color: #D4D6D5;
+    
+}
+.volver{
+    text-align: center;
+}
+
+.volver a{
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+
+.titulo{
+    color: #A2C951;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 2px;
+    
+}
