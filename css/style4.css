@@ -120,19 +120,19 @@
         display: flex;
     }
     .link1 {
-        width: 400px;
+        width: 500px;
         height: 200px;
     }
     .link1:hover {
-        width: 410px;
+        width: 510px;
         height: 210px;
     }
     .link2 {
-        width: 400px;
+        width: 500px;
         height: 200px;
     }
     .link2:hover {
-        width: 410px;
+        width: 510px;
         height: 210px;
     }
     .link3 {
